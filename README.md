@@ -24,25 +24,29 @@
 
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
 
-```python
-class MadhanMetha:
-    def __init__(self):
-        self.name        = "Madhan Metha Saravanan"
-        self.location    = "Tamil Nadu, India 🇮🇳"
-        self.degree      = "B.Tech – AI & Data Science (2022–2026)"
-        self.email       = "methamadhan@gmail.com"
-        self.stack       = ["Python", "FastAPI", "Flask", "Gemini API", "NLP", "LLMs"]
-        self.databases   = ["MySQL"]
-        self.tools       = ["Git", "GitHub", "VS Code"]
-        self.learning    = ["Advanced LLM Architectures", "RAG Pipelines", "Cloud Deployment"]
-        self.fun_fact    = "I once built a working AI interview simulator in a hackathon 🚀"
+public class MadhanMetha {
 
-    def motto(self):
-        return "Build AI that solves real-world problems — one API call at a time."
+    String   name     = "Madhan Metha Saravanan";
+    String   location = "Tamil Nadu, India 🇮🇳";
+    String   degree   = "B.Tech – AI & Data Science (2022–2026)";
+    String   email    = "methamadhan@gmail.com";
 
-me = MadhanMetha()
-print(me.motto())
-```
+    String[] stack     = {"Python", "FastAPI", "Flask", "Gemini API", "NLP", "LLMs"};
+    String[] databases = {"MySQL"};
+    String[] tools     = {"Git", "GitHub", "VS Code"};
+    String[] learning  = {"Advanced LLM Architectures", "RAG Pipelines", "Cloud Deployment"};
+
+    String   funFact  = "I once built a working AI interview simulator in a hackathon 🚀";
+
+    public String motto() {
+        return "Build AI that solves real-world problems — one API call at a time.";
+    }
+
+    public static void main(String[] args) {
+        MadhanMetha me = new MadhanMetha();
+        System.out.println(me.motto());
+    }
+}
 
 <br clear="right" />
 
