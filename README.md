@@ -24,6 +24,7 @@
 
 <img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
 
+```java
 public class MadhanMetha {
 
     String   name     = "Madhan Metha Saravanan";
@@ -47,6 +48,7 @@ public class MadhanMetha {
         System.out.println(me.motto());
     }
 }
+```
 
 <br clear="right" />
 
